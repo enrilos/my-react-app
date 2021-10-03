@@ -1,0 +1,30 @@
+.nav-container {
+    background: #292929;
+}
+
+.nav-container nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16%;
+}
+
+.nav-ul-config li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.nav-ul-config a {
+    color: rgb(0, 216, 255);
+    padding: inherit;
+    background: rgb(32, 32, 32);
+    border-radius: 4px;
+    border: 1px solid rgb(0, 216, 255);
+}
+
+.nav-ul-config a:hover {
+    color: rgb(32, 32, 32);
+    background: rgb(0, 216, 255);
+}
