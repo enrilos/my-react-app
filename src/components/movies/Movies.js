@@ -1,4 +1,5 @@
 import { Component } from "react";
+import movieService from "../../services/movieService";
 import styles from './Movies.module.css';
 
 class Movies extends Component {
