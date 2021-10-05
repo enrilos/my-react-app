@@ -1,0 +1,17 @@
+.card {
+    display: inline-block;
+    vertical-align: middle;
+    background: #595959;
+    border-radius: 6px;
+    color: whitesmoke;
+    margin: 1% 1%;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.card p {
+    margin: 10px auto;
+    padding: 0 6px;
+}

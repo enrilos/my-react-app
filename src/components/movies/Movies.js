@@ -1,5 +1,6 @@
 import { Component } from "react";
 import movieService from "../../services/movieService";
+import MovieCard from "../movieCard/MovieCard";
 import styles from './Movies.module.css';
 
 class Movies extends Component {
@@ -11,10 +12,22 @@ class Movies extends Component {
         }
     }
 
+    async componentDidMount() {
+        const movies = await movieService.getAll();
+
+        this.setState(() => ({ movies }));
+    }
+
     render() {
         return (
-            <div>
-                
+            <div className={styles['movies-div']}>
+                {this.state.movies.map((x) =>
+                    <MovieCard
+                        key={x.id}
+                        title={x.title}
+                        director={typeof x.director === 'object' ? x.director.join(', ') : x.director}
+                    />
+                )}
             </div>
         )
     }

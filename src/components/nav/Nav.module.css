@@ -2,6 +2,13 @@
     background: #292929;
 }
 
+.nav-container img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4%;
+    width: 5%;
+}
+
 .nav-container nav {
     display: inline-block;
     vertical-align: middle;
@@ -11,7 +18,7 @@
 .nav-ul-config li {
     display: inline-block;
     vertical-align: middle;
-    padding: 10px 30px;
+    padding: 10px 16px;
     font-size: 18px;
     margin: 10px auto;
 }

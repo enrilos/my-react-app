@@ -1,16 +1,10 @@
-body::after {
-    content: '';
-    display: block;
-    height: 50px;
-}
-  
 .footer {
-    position: absolute;
     bottom: 0;
     height: 8%;
     color: white;
     background: #292929;
     width: 100vw;
+    padding: 20px;
 }
 
 .footer a {
@@ -19,6 +13,5 @@ body::after {
 
 .footer p {
     text-align: center;
-    margin: 1em auto;
     font-weight: bold;
 }
