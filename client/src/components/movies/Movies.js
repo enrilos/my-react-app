@@ -26,7 +26,7 @@ class Movies extends Component {
                         key={x.id}
                         title={x.title}
                         director={typeof x.director === 'object' ? x.director.join(', ') : x.director}
-                        imageUrl={x.imageUrl}
+                        coverUrl={x.coverUrl}
                     />
                 )}
             </div>
