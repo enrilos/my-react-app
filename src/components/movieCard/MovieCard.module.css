@@ -9,6 +9,18 @@
     height: 300px;
     text-align: center;
     word-break: break-all;
+    min-width: 200px;
+    min-height: 300px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .8s ease;
+}
+
+.card:not(:hover) {
+    transform: scale(1);
+    transition: .8s ease;
 }
 
 .card p {
@@ -17,7 +29,7 @@
 }
 
 .card img {
-    width: 70%;   
-    height: 70%;
+    width: 65%;
+    height: 65%;
     object-fit: cover;
 }

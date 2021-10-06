@@ -10,7 +10,7 @@ class MovieCard extends Component {
         return (
             <div className={styles['card']}>
                 <p><b>Title</b>: {this.props.title}</p>
-                <img src={this.props.imageUrl} />
+                <img src={this.props.imageUrl} alt="movie-cover" />
                 <p><b>Director</b>: {this.props.director}</p>
             </div>
         )
