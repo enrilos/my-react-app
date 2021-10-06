@@ -17,7 +17,7 @@ class Movies extends Component {
 
         this.setState(() => ({ movies }));
     }
-
+    
     render() {
         return (
             <div className={styles['movies-div']}>
@@ -26,6 +26,7 @@ class Movies extends Component {
                         key={x.id}
                         title={x.title}
                         director={typeof x.director === 'object' ? x.director.join(', ') : x.director}
+                        imageUrl={x.imageUrl}
                     />
                 )}
             </div>

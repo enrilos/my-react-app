@@ -15,3 +15,9 @@
     margin: 10px auto;
     padding: 0 6px;
 }
+
+.card img {
+    width: 70%;   
+    height: 70%;
+    object-fit: cover;
+}

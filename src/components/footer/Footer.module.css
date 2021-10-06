@@ -1,9 +1,8 @@
 .footer {
-    bottom: 0;
-    height: 8%;
+    position: relative;
     color: white;
     background: #292929;
-    width: 100vw;
+    height: 8%;
     padding: 20px;
 }
 
