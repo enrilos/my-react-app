@@ -1,9 +1,8 @@
 .card {
     display: inline-block;
     vertical-align: middle;
-    background: #595959;
-    border-radius: 6px;
-    color: whitesmoke;
+    border-radius: 8px;
+    color: #292929;
     margin: 1% 1%;
     width: 30%;
     height: 300px;
@@ -11,6 +10,7 @@
     word-break: break-all;
     min-width: 200px;
     min-height: 300px;
+    box-shadow: 0 3px 4px 0 rgb(0 0 0 / 14%), 0 3px 3px -2px rgb(0 0 0 / 12%), 0 1px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .card:hover {

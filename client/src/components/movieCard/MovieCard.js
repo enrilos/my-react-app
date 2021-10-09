@@ -9,9 +9,9 @@ class MovieCard extends Component {
     render() {
         return (
             <div className={styles['card']}>
-                <p><b>Title</b>: {this.props.title}</p>
+                <p><strong>{this.props.title}</strong></p>
                 <img src={this.props.coverUrl} alt="movie-cover" />
-                <p><b>Director</b>: {this.props.director}</p>
+                <p><strong>{this.props.director}</strong></p>
             </div>
         )
     }
