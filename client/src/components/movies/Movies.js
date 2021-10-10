@@ -17,10 +17,26 @@ class Movies extends Component {
 
         this.setState(() => ({ movies }));
     }
-    
+
+    async searchBarChange(e) {
+        const title = e.target.value;
+        let movies = null;
+
+        if(!title) {
+            movies = await movieService.getAll();
+        } else {
+            movies = await movieService.getMoviesByTitle(title.toLowerCase().trim())
+        }
+
+        this.setState(() => ({ movies }));
+    }
+
     render() {
         return (
             <div className={styles['movies-div']}>
+                <div className={styles['container-search']}>
+                    <input type="text" name="movieSearch" placeholder="Search movie..." onChange={(e) => this.searchBarChange(e)} />
+                </div>
                 {this.state.movies.map((x) =>
                     <MovieCard
                         key={x.id}

@@ -10,6 +10,10 @@ async function get(id) {
     return await jsonRequest(`${baseUri}/${id}`);
 }
 
+async function getMoviesByTitle(title) {
+    return await jsonRequest(`${baseUri}?title_like=${title}`);
+}
+
 async function create(movie) {
     return await jsonRequest(`${baseUri}`, 'Post', movie);
 }
@@ -25,6 +29,7 @@ async function del(id) {
 export default {
     getAll,
     get,
+    getMoviesByTitle,
     create,
     edit,
     del
