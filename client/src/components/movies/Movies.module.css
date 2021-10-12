@@ -1,16 +1,19 @@
-.movies-div {
-    width: 60%;
-    margin: 1% auto;
-}
-
 .container-search {
     text-align: center;
     margin-bottom: 16px;
 }
 
 .container-search > input {
-    width: 50%;
+    width: 30%;
     padding: 10px;
+    margin: 10px auto;
     border: 2px solid rgb(0, 216, 255);
     border-radius: 18px;
+}
+
+.container-movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 50px;
 }

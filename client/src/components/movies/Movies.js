@@ -22,7 +22,7 @@ class Movies extends Component {
         const title = e.target.value;
         let movies = null;
 
-        if(!title) {
+        if (!title) {
             movies = await movieService.getAll();
         } else {
             movies = await movieService.getMoviesByTitle(title.toLowerCase().trim())
@@ -37,14 +37,16 @@ class Movies extends Component {
                 <div className={styles['container-search']}>
                     <input type="text" name="movieSearch" placeholder="Search movie..." onChange={(e) => this.searchBarChange(e)} />
                 </div>
-                {this.state.movies.map((x) =>
-                    <MovieCard
-                        key={x.id}
-                        title={x.title}
-                        director={typeof x.director === 'object' ? x.director.join(', ') : x.director}
-                        coverUrl={x.coverUrl}
-                    />
-                )}
+                <div className={styles['container-movie-cards']}>
+                    {this.state.movies.map((x) =>
+                        <MovieCard
+                            key={x.id}
+                            title={x.title}
+                            director={typeof x.director === 'object' ? x.director.join(', ') : x.director}
+                            coverUrl={x.coverUrl}
+                        />
+                    )}
+                </div>
             </div>
         )
     }
