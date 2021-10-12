@@ -4,10 +4,13 @@
 }
 
 .container-search > input {
+    background: #292929;
+    color: whitesmoke;
     width: 30%;
     padding: 10px;
     margin: 10px auto;
-    border: 2px solid rgb(0, 216, 255);
+    border: none;
+    border: 3px solid whitesmoke;
     border-radius: 18px;
 }
 
