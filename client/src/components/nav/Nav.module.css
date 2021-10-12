@@ -2,25 +2,28 @@
     background: #292929;
 }
 
-.nav-container img {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 4%;
-    width: 5%;
-}
-
 .nav-container nav {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 16%;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.nav-ul-config li {
-    display: inline-block;
-    vertical-align: middle;
+.nav-container nav img {
+    max-width: 6%;
+}
+
+.nav-container nav ul {    
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.nav-container nav ul li {
+    list-style-type: none;
+    justify-content: space-between;
     padding: 10px 16px;
     font-size: 18px;
-    margin: 10px auto;
 }
 
 .nav-ul-config a {
@@ -29,9 +32,11 @@
     background: rgb(32, 32, 32);
     border-radius: 4px;
     border: 2px solid rgb(0, 216, 255);
+    transition: .6s;
 }
 
 .nav-ul-config a:hover {
     color: rgb(32, 32, 32);
     background: rgb(0, 216, 255);
+    transition: .6s;
 }

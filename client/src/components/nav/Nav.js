@@ -9,8 +9,8 @@ class Nav extends Component {
     render() {
         return (
             <div className={styles['nav-container']}>
-                <img src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png" />
                 <nav>
+                <img src="https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png" />
                     <ul className={styles['nav-ul-config']}>
                         <li><a href="#">Solutions</a></li>
                         <li><a href="#">Pricing</a></li>
