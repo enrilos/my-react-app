@@ -1,28 +1,55 @@
 {
-  "movies": [
-      {
-          "id": 1,
-          "title": "The Godfather",
-          "director": "Francis Ford Coppola",
-          "coverUrl": "https://hyperpix.net/wp-content/uploads/2019/08/the-godfather-logo-font-download-1200x900.jpg"
-      },
-      {
-          "id": 2,
-          "title": "Inception",
-          "director": "Christopher Nolan",
-          "coverUrl": "https://flxt.tmsimg.com/assets/p7825626_p_v10_af.jpg"
-      },
-      {
-          "id": 3,
-          "title": "The Matrix",
-          "director": ["Lana Wachowski", "Lilly Wachowski"],
-          "coverUrl": "https://papyrus.greenville.edu/wp-content/uploads/2021/04/IMG_3203_1068x713.jpg"
-      },
-      {
-          "id": 4,
-          "title": "Terminator 2: Judgment Day",
-          "director": "James Cameron",
-          "coverUrl": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
-      }
-  ]
+    "movies": [
+        {
+            "id": 1,
+            "title": "The Godfather",
+            "director": "Francis Ford Coppola",
+            "coverUrl": "https://hyperpix.net/wp-content/uploads/2019/08/the-godfather-logo-font-download-1200x900.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Inception",
+            "director": "Christopher Nolan",
+            "coverUrl": "https://flxt.tmsimg.com/assets/p7825626_p_v10_af.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Matrix",
+            "director": [
+                "Lana Wachowski",
+                "Lilly Wachowski"
+            ],
+            "coverUrl": "https://papyrus.greenville.edu/wp-content/uploads/2021/04/IMG_3203_1068x713.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Terminator 2: Judgment Day",
+            "director": "James Cameron",
+            "coverUrl": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+        },
+        {
+            "id": 5,
+            "title": "The Godfather: Part II",
+            "director": "Francis Ford Coppola",
+            "coverUrl": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+        },
+        {
+            "id": 6,
+            "title": "The Dark Knight",
+            "director": "Christopher Nolan",
+            "coverUrl": "https://m.media-amazon.com/images/I/51PMQLjpLRL._SY580_.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Inglourious Basterds",
+            "director": "Quentin Tarantino",
+            "coverUrl": "https://r1.ilikewallpaper.net/iphone-wallpapers/download-119456/inglourious-basterds_640.jpg"
+        },
+        {
+            "id": 8,
+            "title": "The Lord of the Rings: The Return of the King",
+            "director": "Peter Jackson",
+            "coverUrl": "https://sm.ign.com/ign_ap/screenshot/default/the-lord-of-the-rings-the-return-of-the-king-59b7d7a3775bf_dhkf.jpg"
+        }
+    ]
 }
