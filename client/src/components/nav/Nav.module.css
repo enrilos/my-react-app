@@ -5,6 +5,7 @@
 .nav-container nav {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .nav-container nav img {
@@ -16,7 +17,6 @@
     flex-basis: 30%;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
 }
 
 .nav-container nav ul li {
