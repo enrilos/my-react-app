@@ -18,6 +18,7 @@ class Movies extends Component {
         this.setState(() => ({ movies }));
     }
 
+    // TODO: Implement a delay (make request when user stops typing) so as to avoid redundant SPA request overhead.
     async searchBarChange(e) {
         const title = e.target.value;
         let movies = null;
