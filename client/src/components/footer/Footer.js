@@ -8,7 +8,7 @@ class Footer extends Component {
     
     render() {
         return (
-            <footer className={styles.footer}>
+            <footer className={styles['footer']}>
                 <p>&copy; This project is a property of <a href="https://github.com/enrilos">github/enrilos</a>. All rights reserved.</p>
             </footer>
         );

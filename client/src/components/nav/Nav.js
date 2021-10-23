@@ -15,7 +15,7 @@ class Nav extends Component {
                         <li><a href="#">Solutions</a></li>
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
