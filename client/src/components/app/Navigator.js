@@ -1,19 +1,18 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Movies from '../movies/Movies';
+import Home from '../home/Home';
 import Contact from "../contact/Contact";
+import NotFound from "../../pages/not-found/NotFound";
 
 const Navigator = () => {
     return (
         <Router>
             <Switch>
-                <Route exact path="/">
-                    <Movies />
-                </Route>
-                <Route exact path="/contact">
-                    <Contact />
-                </Route>
-                <Route path="*" exact>
-                    
+                <Route exact path="/" component={Home} />
+                <Route exact path="/index" component={Home} />
+                <Route exact path="/home" component={Home} />
+                <Route exact path="/contact" component={Contact} />
+                <Route exact path="*">
+                    <NotFound />
                 </Route>
             </Switch>
         </Router>

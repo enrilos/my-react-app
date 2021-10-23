@@ -1,9 +1,9 @@
 import React from "react";
-import styles from './Movies.module.css';
+import styles from './Contact.module.css';
 
 const Contact = () => {
     return (
-        <div>
+        <div className={styles['container-contact']}>
             <p>Contact us - app@email.xyz</p>
         </div>
     )

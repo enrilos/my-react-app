@@ -7,7 +7,7 @@ class Nav extends Component {
     }
 
     render() {
-        // TODO: use <Link> from react-router.
+        // TODO: use <Link> from react-router in the future (must be wrapped in Router).
         return (
             <div className={styles['nav-container']}>
                 <nav>
@@ -16,7 +16,7 @@ class Nav extends Component {
                         <li><a href="#">Solutions</a></li>
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
