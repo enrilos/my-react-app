@@ -1,12 +1,12 @@
 import React from "react";
 import styles from './Movies.module.css';
 
-const Contact = () => {
+const NotFound = () => {
     return (
         <div>
-            <p>Contact us - app@email.xyz</p>
+            <p>404 - Not Found</p>
         </div>
-    )
+    );
 }
 
-export default Contact;
+export default NotFound;

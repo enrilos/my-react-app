@@ -7,6 +7,7 @@ class Nav extends Component {
     }
 
     render() {
+        // TODO: use <Link> from react-router.
         return (
             <div className={styles['nav-container']}>
                 <nav>
